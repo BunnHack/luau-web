@@ -1,4 +1,4 @@
-const InternalLuauWasmModule = require("./lib/Luau.Web")
+const InternalLuauWasmModule = Module
 const Luau = InternalLuauWasmModule
 
 class CompileError extends Error {
