@@ -71,8 +71,6 @@ class LuauState {
     }
 }
 
-module.exports = {
-    LuauState,
-    CompileError,
-    InternalLuauWasmModule
-};
+window.LuauState = LuauState;
+window.CompileError = CompileError;
+window.InternalLuauWasmModule = InternalLuauWasmModule;
